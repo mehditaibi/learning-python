@@ -1,6 +1,6 @@
 x = (1, 2, 3)
 3 in x  # True
-x[0] = 'Change me!'  # TypeError: 'tuple' object does not support item assignment
+# x[0] = 'Change me!'  # TypeError: 'tuple' object does not support item assignment
 # It is immutable, faster than lists, can make code safer, communly used for unchanging data (e.g: months, seasons..)
 
 alphabet = ('a', 'b', 'c', 'd')
@@ -13,6 +13,8 @@ names = ("John", "Matt", "Luc")
 
 for name in names:
     print(name)
+
+months = ("January", "Februrary", "March")
 
 i = len(months) - 1
 

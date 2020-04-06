@@ -66,5 +66,5 @@ def display_names(first, second):
 
 names = {"first": "John", "second": "Sara"}
 
-display_names(names) # Throw an error 
+# display_names(names) # Throw an error 
 display_names(**names) # It works!  
